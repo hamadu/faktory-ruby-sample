@@ -27,7 +27,7 @@ $ bundle exec faktory-worker -r ./fetch_url_worker.rb
 4. Throw some jobs
 
 ```
-$
+$ bundle exec client.rb
 ```
 
 5. Access http://localhost:7420
