@@ -1,0 +1,21 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    coderay (1.1.2)
+    connection_pool (2.2.1)
+    faktory_worker_ruby (0.6.1)
+      connection_pool (~> 2.2, >= 2.2.1)
+    method_source (0.9.0)
+    pry (0.11.3)
+      coderay (~> 1.1.0)
+      method_source (~> 0.9.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  faktory_worker_ruby
+  pry
+
+BUNDLED WITH
+   1.15.4
