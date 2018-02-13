@@ -21,13 +21,13 @@ $ bundle install --path=vendor/bundle
 3. Launch some workers
 
 ```
-$ bundle exec faktory-worker -r ./fetch_url_worker.rb
+$ bundle exec faktory-worker -r fetch_url_worker.rb
 ```
 
 4. Throw some jobs
 
 ```
-$ bundle exec client.rb
+$ bundle exec ruby client.rb
 ```
 
 5. Access http://localhost:7420
